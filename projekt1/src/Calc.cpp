@@ -91,6 +91,16 @@ double Calc::losuj()
 	return rand();
 }
 
+void Calc::show(Calc result)
+{
+  cout<<result<<endl;
+}
+
+void Calc::show(Calc first, Calc second, Calc result)
+{
+  cout<<first<<second<<result<<endl;
+}
+
 Calc Calc::operator+(const Calc &second)
 {
   Calc result;

@@ -11,7 +11,6 @@ using namespace std;
 
 int main()
 {
-  Show s;
   Calc a;
   Calc b;
   Calc result;
@@ -24,7 +23,7 @@ int main()
   cout<<result;
   result=a/b;
   cout<<result;
-  s.show(a,b,result);
+  a.show(a,b,result);
 
 
   return 0;
