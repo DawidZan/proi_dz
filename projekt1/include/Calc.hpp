@@ -32,8 +32,6 @@ public:
   int bintodec(std::string);
   std::string dectobin(int);
   double losuj();
-  void show(Calc);
-  void show(Calc, Calc, Calc);
 
   ~Calc() {};
 
@@ -41,5 +39,8 @@ public:
   friend std::istream & operator>>(std::istream &is, Calc &cal);
 
 };
+
+void show(Calc);
+void show(Calc,Calc,Calc);
 
 #endif

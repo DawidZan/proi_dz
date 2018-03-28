@@ -1,3 +1,1 @@
-*.class
-*.iml
-target
+build

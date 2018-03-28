@@ -23,8 +23,7 @@ int main()
   cout<<result;
   result=a/b;
   cout<<result;
-  a.show(a,b,result);
-
-
+  show(result);
+  show(a,b,result);
   return 0;
 }
