@@ -26,31 +26,26 @@ Date::Date(int day, int month, int year, int hour, int minute)
 
 int Date::getday()
 {
-  cout<<day;
   return day;
 }
 
 int Date::getmonth()
 {
-  cout<<month;
   return month;
 }
 
 int Date::getyear()
 {
-  cout<<year;
   return year;
 }
 
 int Date::gethour()
 {
-  cout<<hour;
   return hour;
 }
 
 int Date::getminute()
 {
-  cout<<minute;
   return minute;
 }
 

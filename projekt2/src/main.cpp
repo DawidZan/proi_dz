@@ -16,9 +16,9 @@ using namespace std;
 int main()
 {
 
-  Movie d("dasa","12",11,54.);
+  Movie d("Teraminator","Kowalski",11,54.);
   Movie e;
-  Movie f("sadSA","asdas",123,2.22);
+  Movie f("Rocky","Ktokolwiek",123,2.22);
   Schedule<Movie> sch(1,e);
   cout<<endl<<sch;
   Schedule<Movie> g(3,d,e,f);

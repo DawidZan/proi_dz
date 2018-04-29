@@ -33,25 +33,21 @@ Movie::Movie(string title,string author="empty", int length=0, float price=0.0)
 
 string Movie::gettitle()
 {
-  cout<<title;
   return title;
 }
 
 string Movie::getauthor()
 {
-  cout<<author;
   return author;
 }
 
 int Movie::getlength()
 {
-  cout<<length;
   return length;
 }
 
 float Movie::getprice()
 {
-  cout<<price;
   return price;
 }
 
